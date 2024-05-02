@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Barangay-Sampiruhan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+											<h1><a href="index.html" id="logo">Barangay <em>Sampiruhan</em></a></h1>
+					<!-- Nav -->
+				<nav id="nav">
+							<ul>
+								<li><a href="home.html">Home</a></li>
+								<li>
+									<a href="#">Others</a>
+									<ul>
+										<li><a href="con.html">Contact us</a></li>
+										<li><a href="about.html">About us</a></li>
+
+									</ul>
+								</li>
+								<li><a href="Announcement.html">Announcements</a></li>
+								<li><a href="Sports.html">Sports & Youth Development</a></li>
+								<li><a href="Community.html">Community Service</a></li>
+								<li><a href="SanguniangKabataan.html">Sangguniang Kabataan</a></li>
+								
+<li class="current"><a href="faq.html">FAQ</a></li>
+																
+							</ul>
+						</nav>
+
+				</div>
+				
+				<style>
+				
+				  .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            cursor: pointer;
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .faq-question:after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: #ccc;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .faq-answer {
+            display: none;
+            padding-left: 20px;
+            transition: max-height 0.3s ease-out;
+            max-height: 0;
+            overflow: hidden;
+        }
+        .faq-arrow {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease-out;
+        }
+        .faq-item.active .faq-answer {
+            display: block;
+            max-height: 1000px; /* A large enough value to accommodate all content */
+        }
+        .faq-item.active .faq-arrow {
+            transform: translateY(-50%) rotate(180deg);
+        }
+        
+        </style>
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+
+								<article>
+									<header>
+										<h2>Frequently Asked Questions</h2>
+										<p>Last update: May 2, 2024. </p>
+									</header>
+									      
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(1)">
+                        What is the role of the Sangguniang Barangay?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-1">
+                        The Sangguniang Barangay is responsible for enacting ordinances and resolutions, approving budgets, and other legislative functions at the barangay level.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(2)">
+                        How can I contact the Barangay office?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-2">
+                        You can contact the Barangay office by visiting us in person or calling us at [barangay contact number].
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(3)">
+                        What are the requirements for obtaining a barangay clearance?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-3">
+                        The requirements for obtaining a barangay clearance may vary depending on the purpose. Generally, you'll need to provide valid identification and fill out the necessary forms.
+                    </div>
+                </div>
+                <!-- Add more FAQ items -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(4)">
+                        How can I report a problem or concern in the barangay?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-4">
+                        You can report any problems or concerns to the Barangay office either in person, via phone, or through our online contact form.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(5)">
+                        Can I volunteer for community projects and activities?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-5">
+                        Yes, we welcome volunteers who are willing to contribute their time and skills to our community projects and activities. Please contact the Barangay office for more information.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(6)">
+                        How can I stay updated on barangay news and announcements?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-6">
+                        You can stay updated on barangay news and announcements by visiting our website regularly, following our social media pages, or subscribing to our newsletter.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(7)">
+                        What is the procedure for registering a business in the barangay?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-7">
+                        The procedure for registering a business in the barangay may involve securing permits and clearances from the Barangay office. Please contact us for detailed information on the process.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(8)">
+                        How can I participate in barangay meetings?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-8">
+                        Barangay meetings are typically open to the public. You can attend and participate by observing the schedule and venue of the meetings posted on our website or community bulletin boards.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(9)">
+                        What are the responsibilities of the Barangay Chairman?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-9">
+                        The Barangay Chairman is responsible for overseeing the administration and governance of the barangay, implementing policies and programs, and representing the barangay in various activities and events.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(10)">
+                        How can I apply for barangay scholarships?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-10">
+                        Applications for barangay scholarships are typically announced and accepted during specific periods. Please stay updated on our announcements section for information on application procedures and requirements.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(11)">
+                        What services does the Barangay Health Center provide?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-11">
+                        The Barangay Health Center provides various health services such as medical consultations, vaccinations, maternal and child care, and health education programs.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(12)">
+                        How can I request for barangay assistance during emergencies?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-12">
+                        During emergencies, you can contact the Barangay office for assistance. We have emergency response teams and protocols in place to provide aid and support to residents in need.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(13)">
+                        What are the requirements for holding events or gatherings in the barangay?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-13">
+                        The requirements for holding events or gatherings in the barangay may include securing permits, coordinating with the Barangay office, and adhering to local regulations. Please contact us for specific guidelines and procedures.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(15)">
+                        What are the programs and services offered by the Barangay Nutrition Office?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-15">
+                        The Barangay Nutrition Office offers programs and services aimed at promoting nutrition, health, and wellness among residents. This may include feeding programs, nutrition education, and monitoring of nutritional status.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(16)">
+                        How can I request for barangay street lighting installation?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-16">
+                        To request for barangay street lighting installation, please submit a formal request to the Barangay office. We will assess the feasibility and prioritize installation based on need and available resources.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(17)">
+                        What are the guidelines for barangay beautification projects?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-17">
+                        Barangay beautification projects may involve planting trees, maintaining green spaces, and enhancing public areas. Guidelines for such projects may vary, and interested individuals or groups are encouraged to coordinate with the Barangay office for approval and assistance.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(18)">
+                        How can I register to vote in barangay elections?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-18">
+                        To register to vote in barangay elections, you must be a Filipino citizen, at least 18 years old on or before election day, and a resident of the barangay for at least six months. Registration periods are typically announced by the Commission on Elections (COMELEC), and you can register at designated registration centers.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(19)">
+                        How can I request for barangay financial assistance?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-19">
+                        To request for barangay financial assistance, please submit a formal letter of request to the Barangay office outlining the purpose and details of the assistance needed. Requests will be evaluated based on merit, availability of funds, and compliance with guidelines.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleAnswer(20)">
+                        What are the procedures for barangay mediation and conflict resolution?
+                        <span class="faq-arrow">&#9660;</span>
+                    </div>
+                    <div class="faq-answer" id="faq-answer-20">
+                        Barangay mediation and conflict resolution procedures involve the intervention of barangay officials or mediators to help parties reach a mutually acceptable resolution to disputes or conflicts. The process may include mediation sessions, negotiation, and, if necessary, referral to higher authorities or legal avenues.
+                        
+                        
+
+                </div>
+            </div>
+        </section>
+        </article>
+    
+</body>
+</html>
+
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+					
+				
+							<section class="col-6 col-12-narrower">
+								<h3>Get In Touch</h3>
+								<form>
+									<div class="row gtr-50">
+										<div class="col-6 col-12-mobilep">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="col-6 col-12-mobilep">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" class="button alt" value="Send Message" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+						</div>
+					</div>
+
+					<!-- Icons -->
+						<ul class="icons">
+						
+							<li><a href="https://www.facebook.com/profile.php?id=61553994933248" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+			
+						</ul>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Barangay Sampiruhan. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			    <!-- Scripts -->
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById('faq-answer-' + id).parentNode;
+            answer.classList.toggle('active');
+        }
+    </script>
+
+	</body>
+</html>
